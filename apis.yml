@@ -1,7 +1,18 @@
 aid: ontruck
 name: Ontruck
-description: Ontruck is a company surfaced as a portfolio company of point-nine and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ontruck is a Spanish road-freight technology platform that connects shippers
+  (cargadores) with a network of professional carriers (transportistas) for
+  full-truckload and less-than-truckload pallet, package, and parcel transport
+  across Spain, France, and wider Europe. Shippers get instant AI-driven
+  pricing, automated carrier assignment, real-time traceability, and digital
+  documentation through service tiers (Economy, Flex, Express); carriers get
+  access to freight loads with dynamic pricing and 24/7 support. Ontruck also
+  packages its stack as "Ontruck AI Tech" — an AI pricing engine, AI routing
+  engine, a predictive incident system, and a forecast/capacity planner —
+  offered as transport-management software. The company operates a marketing and
+  customer web surface plus an in-product shipper/carrier application; it
+  publishes no public developer/API portal, OpenAPI, or SDKs at this time.
 url: https://raw.githubusercontent.com/api-evangelist/ontruck/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,32 @@ x-backed-by:
 - point-nine
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.ontruck.com/favicon.ico
 tags:
 - Company
+- Logistics
+- Freight
+- Road Transport
+- Trucking
+- Supply Chain
+- Transport Management
+- Artificial Intelligence
+- Spain
+- Europe
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.ontruck.com
+- type: TransportSoftware
+  url: https://www.ontruck.com/en/transport-software
+- type: About
+  url: https://www.ontruck.com/en/about-us
+- type: Blog
+  url: https://www.ontruck.com/en/blog
+- type: SignUp
+  url: https://www.ontruck.com/en/shippers/register-company
+- type: Support
+  url: https://www.ontruck.com/en/contact-us
+- type: HelpCenter
+  url: https://www.ontruck.com/en/faq/general
+- type: TermsOfService
+  url: https://www.ontruck.com/en/shippers/terms-and-conditions-for-shippers
+- type: PrivacyPolicy
+  url: https://www.ontruck.com/en/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/ontruck
+- type: DomainSecurity
+  url: security/ontruck-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
